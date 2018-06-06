@@ -1,0 +1,14 @@
+<a-menu mode="horizontal" v-model="current">
+    <a-menu-item key="home">
+        <router-link to="/">
+            <a-icon type="home" />Home</router-link>
+    </a-menu-item>
+    <a-menu-item key="about">
+        <router-link to="/about">
+            <a-icon type="question-circle-o" />About</router-link>
+    </a-menu-item>
+    <a-menu-item key="ontologyBrowsing">
+        <router-link to="/ontologyBrowsing">
+            <a-icon type="question-circle-o" />Ontology Browsing</router-link>
+    </a-menu-item>
+</a-menu>

@@ -1,11 +1,10 @@
 import Vue from 'vue'
-import ElementUI from 'element-ui';
-import locale from 'element-ui/lib/locale/lang/en'
-import 'element-ui/lib/theme-chalk/index.css';
+import Antd from 'vue-antd-ui'
+import 'vue-antd-ui/dist/antd.css'
 import App from './App/App.vue'
 import router from './router'
 
-Vue.use(ElementUI, { locale })
+Vue.use(Antd)
 Vue.config.productionTip = false
 
 new Vue({
